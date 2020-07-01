@@ -23,8 +23,8 @@ body section .top {
   padding: 40px;
 }
 body section .top h1 {
-  color: #2ab2af;
-  font-size: 2rem;
+  color: #2bb3b1;
+  font-size: 1.5rem;
   margin-bottom: 30px;
 }
 body section .top h3 {
@@ -38,7 +38,7 @@ body section .left {
   float: left;
   width: 50%;
   height: 260px;
-  background-color: #2ab2af;
+  background-color: #2bb3b1;
   color: #fff;
   padding: 40px;
 }
@@ -64,13 +64,26 @@ body section .left button {
   background-color: #c0df34;
   color: #fff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: 700;
-  box-shadow: 3px 3px 9px #7a7a7a, 1px 1px 3px #7a7a7a;
+  box-shadow: 1px 1px 3px #7a7a7a;
 }
 body section .right {
   float: right;
   width: 50%;
+  height: 260px;
+  background-color: #4abebd;
+  color: #fff;
+  padding: 40px;
+}
+body section .right h1 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+body section .right ul {
+  list-style-type: none;
+  font-size: 1rem;
+  opacity: 0.6;
 }
 
 /*# sourceMappingURL=compiled.css.map */
