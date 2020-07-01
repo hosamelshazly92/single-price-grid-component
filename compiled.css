@@ -86,4 +86,25 @@ body section .right ul {
   opacity: 0.6;
 }
 
+@media (max-width: 660px) {
+  body {
+    padding: 70px 0;
+  }
+  body section {
+    width: 310px;
+  }
+  body section .top {
+    height: 270px;
+    padding: 30px;
+  }
+  body section .top h1 {
+    margin-bottom: 20px;
+  }
+  body section .left, body section .right {
+    float: none;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
 /*# sourceMappingURL=compiled.css.map */
